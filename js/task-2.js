@@ -1,15 +1,13 @@
 function makeArray(firstArray, secondArray, maxLength) {
     let result = []
     let newArray = firstArray.concat(secondArray);
-    for (let i = 0; i <= maxLength; i++){
          if (newArray.length > maxLength) {
-             result = newArray.slice(0, maxLength);
-             
+             result = newArray.slice(0, maxLength); 
         }
          else {
              result = newArray;
         }
-    } return result;
+     return result;
    
 }
 
